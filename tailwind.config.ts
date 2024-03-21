@@ -9,7 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     
+      screens: {
+        'hover-hover': { 'raw': '(hover: hover)' },
+      }
     },
   },
   plugins: [],
